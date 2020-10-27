@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.badge {
+    height: 40px;
+}
+.image-container {
+    position: relative;
+    padding-bottom: 130%;
+}
+.image-container > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

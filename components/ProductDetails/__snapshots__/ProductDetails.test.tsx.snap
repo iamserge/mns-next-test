@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails renders correctly 1`] = `
+<div
+  className="md:flex mb-4"
+>
+  <div
+    className="w-full md:w-1/2"
+  >
+    <div
+      className="relative max-h-10 image-container loading-image-container"
+    >
+      <img
+        alt="Test name"
+        className="w-full min-h-full"
+        loading="lazy"
+        onLoad={[Function]}
+        src="https://asset1.cxnmarksandspencer.com/is/image/mands/test.jpg"
+      />
+    </div>
+  </div>
+  <div
+    className="w-full md:w-1/2 md:pl-10 pt-6 text-xl md:text-2xl"
+  >
+    <h2
+      className="text-2xl md:text-4xl uppercase"
+    >
+      Test name
+    </h2>
+    <div
+      className="condensed"
+    >
+      <span
+        className="line-through mr-2"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "&euro;",
+            }
+          }
+        />
+        2
+      </span>
+      <span
+        className="text-red-700 font-bold"
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "&euro;",
+            }
+          }
+        />
+        1
+      </span>
+    </div>
+    <div>
+      <p
+        className="text-base mt-5"
+      />
+      <button
+        className="bg-gray-200 hover:bg-gray-300 text-black mt-10 text-xl font-bold py-2 px-10 rounded"
+        onClick={[Function]}
+      >
+        Back
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage renders correctly 1`] = `
+<div
+  className="relative max-h-10 image-container loading-image-container"
+>
+  <img
+    alt="test"
+    className="w-full min-h-full"
+    loading="lazy"
+    onLoad={[Function]}
+    src="https://asset1.cxnmarksandspencer.com/is/image/mands/123"
+  />
+</div>
+`;

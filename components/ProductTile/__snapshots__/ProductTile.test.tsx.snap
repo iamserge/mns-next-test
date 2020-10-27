@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTile renders correctly 1`] = `
+<div
+  className="mb-10 cursor-pointer"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <div
+    className="relative"
+  >
+    <div
+      className="relative max-h-10 image-container loading-image-container"
+    >
+      <img
+        alt="Pure Cotton Scoop Neck Vest Top"
+        className="w-full min-h-full"
+        loading="lazy"
+        onLoad={[Function]}
+        src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_01_T41_1391_B0_X_EC_0"
+      />
+    </div>
+    <div
+      className="absolute"
+    />
+  </div>
+  <div
+    className="flex justify-between text-xl mt-2"
+  >
+    <h3>
+      Pure Cotton Scoop Neck Vest Top
+    </h3>
+    <div
+      className="condensed"
+    >
+      <span
+        className={null}
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "&pound;",
+            }
+          }
+        />
+        450
+      </span>
+    </div>
+  </div>
+</div>
+`;

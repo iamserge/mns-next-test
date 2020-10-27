@@ -1,0 +1,10 @@
+services:
+  api:
+    ports:
+      - "3001:3001"
+    image: "chrismns/tech-test-mock-server:0.1.0"
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+  

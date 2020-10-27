@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  className="absolute w-full bg-white left-0 top-0 shadow"
+>
+  <div
+    className="flex justify-between py-6 px-6"
+  >
+    <h1
+      className="text-2xl cursor-pointer"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      M&S TEST SHOP
+    </h1>
+    <div>
+      <div>
+        <input
+          className="p-2 rounded border-2"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="User id"
+          type="text"
+          value=""
+        />
+        <button
+          className="hover:bg-gray-400 text-black text-base ml-5 p-2 px-4 rounded pointer-events-none bg-gray-200 "
+          onClick={[Function]}
+        >
+          Log in
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
